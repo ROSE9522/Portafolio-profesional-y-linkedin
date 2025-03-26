@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Robot', sans-serif;
+	font-size: 28px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* ----- ----- HEADER ----- ----- */
+
+header {
+
+	width: 100%;
+	background: url('../img/c.jpg') ;
+	/* Photo by Artem Sapegin on Unsplash */
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center 0;
+	opacity: 1;
+	height: 100vh;
+}
+
+header .contenedor {
+	position: relative;
+	height: 700px;
+}
+
+
+
+header .menu {
+	width: 100%;
+	text-align: right;
+	font-size: 100px;
+
+
+}
+/* Coniene el menú de navegación */
+/* header .menu a .front {
+	font-weight: 300;
+	font-family: 'Kaushan Script', cursive;
+	color: #f69da3; */
+	/* display: inline-block; */
+	/* margin: 20vh;
+	margin-left: auto;
+	text-decoration: none;
+	position: relative;
+	font-size: 80px;
+
+
+} */
+
+header .textos {
+	width: 100%;
+	position: absolute;
+	top: 10%;
+	margin-top:-52px;
+}
+
+header .textos .nombre {
+	font-family: 'Anton', sans-serif;
+	font-size: 120px;
+	font-weight: 900;
+}
+
+header .textos .nombre span {
+	font-weight: 300;
+}
+
+header .textos h3 {
+	margin: 0;
+	margin-left: 7vh;
+	font-weight: 300;
+	font-size: 50px;
+	font-family: 'Share Tech Mono', monospace;
+color: #f69da3;
+	/* font-style: italic; */
+}
+
+/* ----- ----- MAIN ----- ----- */
+/* .main {
+	background: url('../img/j.jpg') #281a0c;
+	background-size:cover;
+
+} */
+
+.main .acerca-de .contenedor {
+	color: #FFF;
+	overflow: visible;
+	position: relative;
+	font-family: 'Robot', sans-serif;
+	font-size: 28px;
+}
+
+.main .acerca-de .foto {
+	width: 80%;
+	position: absolute;
+	left:330;
+	top:26px;
+	z-index: 0;
+}
+
+.main .acerca-de .foto img {
+	vertical-align: top;
+	width: 60%;
+}
+
+.main .acerca-de article {
+	background: rgba(0, 0, 0, 0.54);
+	padding: 40px;
+	width: 63%;
+	position: relative;
+	top:600px;
+	z-index: 1;
+	float: right;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.9);
+}
+
+.main .acerca-de article h3 {
+	font-size: 50px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.main .acerca-de article p{
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+.main .menu {
+	padding-top: 500px;
+	margin-bottom: 100px;
+	margin-left: 700px;
+}
+
+.main .menu .titulo, .main .galeria #habilidades  {
+	color: #FFF;
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: 'Robot', sans-serif;
+	font-size: 40px;
+}
+
+
+.main .menu article {
+	width: 100%;
+	float: left;
+	padding: 20px;
+}
+.main .galeria #habilidades {
+	color:black;
+}
+
+
+.main .galeria {
+	overflow: hidden;
+}
+
+.main .galeria .foto {
+	width: 33%;
+	float: left;
+}
+
+.main .galeria .foto img {
+	width: 100%;
+	vertical-align: top;
+	opacity: .5;
+}
+
+.main .galeria .foto img:hover {
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+/* ----- ----- FOOTER ----- ----- */
+footer .contacto {
+	padding: 60px 0;
+}
+
+footer .contacto .titulo {
+	font-size: 34px;
+	line-height: 34px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	color: #FFF;
+
+}
+
+footer  {
+
+ margin: 0;
+ padding: 0;
+
+}
+
+ footer .redes-sociales .container-fluid{
+	background:#f69da3;
+	background-size:cover;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+
+section .redes-sociales {
+	background: #FFF;
+	padding: 10px 0;
+}
+
+
+footer .redes-sociales a {
+	color: #FFF;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 30px;
+	margin: 0 20px;
+}
+
+footer .redes-sociales p {
+
+	text-align: center;
+
+}
+
+footer .redes-sociales {
+	font-size: 15px;
+}
+
+footer .redes-sociales .git, footer .redes-sociales .link {
+	margin-left: 20px;
+}
+
+.modal {
+	background-color: #fff;
+	width: 100vh;
+	opacity: .9;
+	filter: alpha(opacity=60);
+	margin: 0 auto;
+	/* color: black; */
+	height: 70vh;
+}
